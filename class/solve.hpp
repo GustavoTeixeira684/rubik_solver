@@ -24,6 +24,7 @@ class Solve{
         void yellow_corner();
         void last_layer_permutation();
         bool done();
+        void move(int command[], int length);
 
         // Funções criadas para facilitar as etapas e evitar checagens de centros repetitivas
         void move_right_up(int center);
@@ -47,8 +48,6 @@ class Solve{
         void shuffle();
         void shuffle(std::string encode);
         void print();
-        void move(int command[], int length);
-
 
         void solve_using_layer_method();
         bool validate();

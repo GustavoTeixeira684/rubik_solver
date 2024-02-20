@@ -721,8 +721,6 @@ void Solve::solve_using_layer_method(){
     this->middle();
     this->yellow_cross();
     this->yellow_corner();
-    // this->print();
-    // std::cout << this->solve_algorithm << std::endl;
     this->last_layer_permutation();
 
     std::cout << "Solve Algorithm: " << this->solve_algorithm << std::endl << std::endl;

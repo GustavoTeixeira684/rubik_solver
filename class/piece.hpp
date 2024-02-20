@@ -4,10 +4,6 @@
 
 class Piece{
 
-    private:
-        
-        
-
     public:
         // Attributes
         bool type; // 0 para peça do canto e 1 para peça do meio

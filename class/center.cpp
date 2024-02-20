@@ -15,7 +15,6 @@ Center::Center(short int color){
     }else{
         this->piece[3] = new Piece(1);
         this->piece[4] = nullptr;
-        // this->piece[5] = new Piece(1);
     }
     
     this->color = color;

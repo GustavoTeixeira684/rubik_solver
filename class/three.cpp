@@ -84,8 +84,6 @@ Three::Three(){
         this->center[i] = new Center(i);
         this->center[i]->piece[3]->setColor(0, i);
         this->center[i]->piece[3]->setColor(1, (i + 3) % 4);
-        // this->center[i]->piece[5]->setColor(0, i);
-        // this->center[i]->piece[5]->setColor(1, (i + 1 % 4));
  
         for(int j = 0, contador = 0; j < 9; j++){
             if(j != 4){
@@ -208,7 +206,6 @@ void Three::right_line(){
         this->changeCenter(this->center[GREEN], this->center[WHITE]->piece[(2+3*i)], (6-3*i), this->center[WHITE]->piece[(2+3*i)]->getColor(WHITE));
         this->changeCenter(this->center[WHITE], this->center[BLUE]->piece[(2+3*i)], (2+3*i), this->center[BLUE]->piece[(2+3*i)]->getColor(BLUE));
         this->changeCenter(this->center[BLUE], this->center[YELLOW]->piece[(2+3*i)], (2+3*i),this->center[YELLOW]->piece[(2+3*i)]->getColor(YELLOW));
-        // this->changeCenter(this->center[WHITE], this->center[BLUE]->piece[(2+3*i)], (2+3*i), (i == 2 ? color_temp[1] : this->center[BLUE]->piece[(2+3*i)]->getColor(BLUE)));
         
 
     }
@@ -293,7 +290,6 @@ void Three::left(){
         this->changeCenter(this->center[GREEN], this->center[WHITE]->piece[(3*i)], (8-3*i), this->center[WHITE]->piece[(3*i)]->getColor(WHITE));
         this->changeCenter(this->center[WHITE], this->center[BLUE]->piece[(3*i)], (3*i), this->center[BLUE]->piece[(3*i)]->getColor(BLUE));
         this->changeCenter(this->center[BLUE], this->center[YELLOW]->piece[(3*i)], (3*i),this->center[YELLOW]->piece[(3*i)]->getColor(YELLOW));
-        // this->changeCenter(this->center[WHITE], this->center[BLUE]->piece[(2+3*i)], (2+3*i), (i == 2 ? color_temp[1] : this->center[BLUE]->piece[(2+3*i)]->getColor(BLUE)));
         
 
     }
@@ -1055,18 +1051,7 @@ void Three::print(){ // Código escrito na mão pois a estrutura de dados tem ta
         print_space(true);
     }
 
-    // for(int i = 0; i < 3; i++){
-    //     print_space(false);
-    //     for(int j = i*3; j < (i+1)*3; j++){
-    //         if(j != 4){
-    //             std::cout << this->center[GREEN]->piece[j]->getColor(GREEN) << " ";
-    //         }else{
-    //             std::cout << GREEN << " ";
-    //         }
-            
-    //     }
-    //     print_space(true);
-    // }
+    
     std::cout << std::endl << std::endl;
 
 }
