@@ -7,10 +7,9 @@ Você pode passar por argumento o "algoritmo de embaralhamento" usando -s "seu a
 
 ## Argumentos:
 
-    -s : (shuffle) quando passado seque de um algoritmo de embaralhamento para ser resolvido
+    -s : (shuffle) quando passado seguido de um algoritmo de embaralhamento para ser resolvido
     -p : (print result) quando passado, o programa printa um esquema para demonstrar a solução
     -t : (time) quando passado, o programa exibe quanto tempo levou para resolver por completo
-    -track : quando passado, o programa exibe (imagens) de cada movimento realizado
     --movement: Quando passado, o programa mostra o movimento que cada notação do algoritmo realiza
     --help: Trás informações sobre o programa
 
