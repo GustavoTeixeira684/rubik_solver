@@ -43,7 +43,7 @@ O algoritmo de cubo mágico utiliza alguns principios:
     M - Notação para o movimento: R' L
     M' - Notação para o movimento R L'
 
-***OBS: Todas as notações de movimentos utilizadas nesse programas são notações oficiais de campeonatos de resolução de cubos mágicos.***
+***OBS: Todas as notações de movimentos utilizadas nesse programa são notações oficiais de campeonatos de resolução de cubos mágicos.***
 
 ## Instalação
 
